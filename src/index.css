@@ -44,9 +44,16 @@ input:focus { outline: none; }
   justify-content: center;
 }
 
+a {
+  background: black;
+  display: flex;
+  align-items: center;
+  margin: .2em;
+  border-radius: 25px;
+}
+
 img {
   width: 250px;
-  max-height: 200px;
   padding: .2em;
   border-radius: 25px;
   margin: 0 auto;
